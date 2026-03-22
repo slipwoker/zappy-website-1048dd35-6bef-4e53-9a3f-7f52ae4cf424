@@ -229,8 +229,6 @@
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
     <!-- Favicons -->
     <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
@@ -240,10 +238,262 @@
     <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon-512x512.png">
     <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
     <!-- Cookie Consent -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css">
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.index-hero-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: visible;
+  background-color: #07080D;
+  color: var(--text-light);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 80px;
+}
+
+/* Background */
+.index-hero-section .index-hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #07080D;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: saturate(1.25) contrast(1.12);
+}
+
+/* Scrim */
+.index-hero-section .index-hero-scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background-image:
+    linear-gradient(to left, rgba(5,6,10,0.92) 0%, rgba(5,6,10,0.72) 30%, rgba(5,6,10,0.18) 65%, rgba(5,6,10,0.06) 100%),
+    linear-gradient(to top, rgba(5,6,10,0.85) 0%, rgba(5,6,10,0.3) 40%, transparent 70%);
+}
+
+/* Decorative color beam */
+.index-hero-section .index-hero-beam {
+  position: absolute;
+  inset-inline-end: 0;
+  top: 0;
+  width: 45%;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+  background: linear-gradient(180deg, rgba(110,55,255,0.18) 0%, rgba(255,20,147,0.14) 50%, rgba(0,212,255,0.10) 100%);
+  mix-blend-mode: screen;
+}
+
+/* Inner container */
+.index-hero-section .index-hero-inner {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 140px 48px 60px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Content block */
+.index-hero-section .index-hero-content {
+  max-width: 620px;
+  text-align: right;
+  direction: rtl;
+}
+
+/* Badge */
+.index-hero-section .index-hero-badge {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-light);
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.14);
+  border-radius: 999px;
+  padding: 6px 18px;
+  margin-bottom: 24px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+/* H1 */
+.index-hero-section .index-hero-h1 {
+  font-family: 'Space Grotesk', 'Monument Grotesk', sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1.02;
+  color: var(--text-light);
+  margin: 0 0 20px;
+  text-shadow: 0 4px 32px rgba(0,0,0,0.6);
+  background: linear-gradient(90deg, #22D7FF 0%, #FF1493 60%, #FF4FD8 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* H3 subtitle */
+.index-hero-section .index-hero-h3 {
+  font-family: 'Inter', 'Suisse Int\'l', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.55;
+  color: var(--text-light);
+  -webkit-text-fill-color: var(--text-light);
+  margin: 0 0 40px;
+  opacity: 0.88;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.55);
+  max-width: 520px;
+  margin-inline-start: auto;
+}
+
+/* CTAs */
+.index-hero-section .index-hero-ctas {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+/* Primary button */
+.index-hero-section .index-hero-btn-primary {
+  display: inline-block;
+  background: linear-gradient(180deg, #35E3FF 0%, #1FC7F1 100%);
+  color: #041018;
+  -webkit-text-fill-color: #041018;
+  padding: 15px 36px;
+  border-radius: 12px;
+  border: none;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 1;
+  text-decoration: none;
+  box-shadow: 0 10px 24px rgba(34,215,255,0.32), 0 2px 8px rgba(0,0,0,0.3);
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  white-space: nowrap;
+}
+
+.index-hero-section .index-hero-btn-primary:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 40px rgba(34,215,255,0.42), 0 4px 16px rgba(0,0,0,0.35);
+}
+
+/* Secondary button */
+.index-hero-section .index-hero-btn-secondary {
+  display: inline-block;
+  background: rgba(255,255,255,0.06);
+  color: var(--text-light);
+  -webkit-text-fill-color: var(--text-light);
+  padding: 15px 32px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.18);
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 1;
+  text-decoration: none;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  white-space: nowrap;
+}
+
+.index-hero-section .index-hero-btn-secondary:hover {
+  background: rgba(255,255,255,0.12);
+  border-color: rgba(255,255,255,0.32);
+  transform: translateY(-3px);
+}
+
+/* Bottom divider */
+.index-hero-section .index-hero-divider-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.index-hero-section .index-hero-divider-wrapper svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* ── Mobile ─────────────────────────────────── */
+@media (max-width: 768px) {
+  .index-hero-section {
+    min-height: 100svh;
+    align-items: flex-end;
+    padding-bottom: 80px;
+  }
+
+  .index-hero-section .index-hero-scrim {
+    background-image:
+      linear-gradient(to top, rgba(5,6,10,0.95) 0%, rgba(5,6,10,0.6) 50%, rgba(5,6,10,0.25) 100%);
+  }
+
+  .index-hero-section .index-hero-beam {
+    width: 100%;
+    opacity: 0.5;
+  }
+
+  .index-hero-section .index-hero-inner {
+    padding: 100px 20px 40px;
+    justify-content: center;
+  }
+
+  .index-hero-section .index-hero-content {
+    max-width: 100%;
+    text-align: right;
+  }
+
+  .index-hero-section .index-hero-h1 {
+    font-size: 42px;
+    letter-spacing: -0.03em;
+    margin-bottom: 16px;
+  }
+
+  .index-hero-section .index-hero-h3 {
+    font-size: 16px;
+    margin-bottom: 28px;
+    max-width: 100%;
+  }
+
+  .index-hero-section .index-hero-ctas {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .index-hero-section .index-hero-btn-primary,
+  .index-hero-section .index-hero-btn-secondary {
+    width: 100%;
+    text-align: center;
+    padding: 16px 24px;
+  }
+}
+</style>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="/styles.css">
 
     <style id="zappy-dropdown-submenu-styles">
@@ -323,16 +573,16 @@
     </div>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <svg class="hamburger-icon" width="24" height="24" viewbox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
+    <svg class="close-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" style="display: none;">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
 
   <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+    <svg width="20" height="20" viewbox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
@@ -340,14 +590,14 @@
   <div class="nav-container">
     <div class="nav-right-group"><div class="nav-brand">
       <a href="/" class="logo-link">
-        <img src="/assets/color-wave-logo.webp" alt="Color Wave" class="logo" />
+        <img src="/assets/color-wave-logo.webp" alt="Color Wave" class="logo">
       </a>
     </div><ul class="nav-menu" id="navMenu">
 
     <li class="menu-item-has-children zappy-products-dropdown">
       <a href="/products">
         מוצרים
-        <svg class="dropdown-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <svg class="dropdown-arrow" width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M6 9l6 6 6-6"></path>
         </svg>
       </a>
@@ -380,7 +630,7 @@
   <main class="page-container ecommerce-page">
     
         <section class="login-section">
-          <h1>Color Wave</h1>
+          <h1>התחברות לקוחות</h1>
           <div class="login-form">
             <p>הזן את כתובת האימייל שלך ונשלח לך קוד התחברות</p>
             <input type="email" placeholder="כתובת אימייל" id="login-email" required>
@@ -505,7 +755,6 @@
     }
   })();
   </script>
-    <div data-integration="accessibility:toolbar"></div>
 
     <script src="/script.js"></script>
 
